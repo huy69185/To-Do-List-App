@@ -1,0 +1,10 @@
+﻿<Window x:Class="TodoListApp.ManageNotesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Manage Notes" Height="231" Width="571" Loaded="Window_Loaded" ResizeMode="NoResize" WindowStyle="SingleBorderWindow"
+        Icon="pack://application:,,,/app_icon.ico" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ListBox x:Name="ManageNotesListBox" Margin="10"/>
+        <Button Content="Delete Note" Width="100" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10" Click="DeleteNoteButton_Click" Height="26"/>
+    </Grid>
+</Window>
